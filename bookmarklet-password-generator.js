@@ -6,5 +6,5 @@ javascript: (function() {
   		pwd += characters.charAt(Math.floor(Math.random() * characters.length));
   }
   
-  var person = prompt("Please enter your name", pwd);
+  var person = prompt("Suggested password:", pwd);
 })();
